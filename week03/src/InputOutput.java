@@ -72,10 +72,10 @@ public class InputOutput {
 
         System.out.print("Enter the new average value? ");
         /*
-         * Scanner class is the tools that has operation to give us the option to get an
-         * input from the console.
+         * "Scanner" is Java built-in class is the tools that has operation to give us
+         * the option to get an input from the console.
          * 
-         * We have to import the "Scanner" above
+         * We have to import the "Scanner" first as we did above
          * The data type here is "Scanner"
          * 
          * Creating a "variable" named for example: "input"
@@ -83,9 +83,19 @@ public class InputOutput {
          * 
          * This variable "input" officially is called an "object" in OOP language
          * OOP => Object-Oriented Programming
+         * 
+         * Every variable in Java has a data type
+         * the variable "input" is of type "Scanner"
+         * "input" is an "object"
+         * 
+         * The concept of "Objects" and "Classes" will be covered in details later
          */
         Scanner input = new Scanner(System.in);
 
+        /*
+         * Using a method named "nextDouble()"
+         * belongs to the objet "input"
+         */
         double newAvg = input.nextDouble(); // .nextDouble()
 
         System.out.print("What is your name? ");
