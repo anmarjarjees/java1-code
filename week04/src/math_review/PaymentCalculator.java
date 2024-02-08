@@ -27,6 +27,22 @@ public class PaymentCalculator {
         System.out.println("What is your pay rate?");
         double payRate = sc.nextDouble();
 
+        /*
+         * The Arithmetic Operators
+         * ************************
+         * The Java programming language provides operators that perform:
+         * - addition => + Additive operator (also used for String concatenation)
+         * - subtraction => - Subtraction operator
+         * - multiplication => * Multiplication operator
+         * - division. => / Division operator
+         * - % Remainder operator
+         * The only symbol that might look new to you is "%",
+         * which divides one operand by another and
+         * returns the remainder as its result.
+         * 
+         * Link: https://docs.oracle.com/javase/tutorial/java/nutsandbolts/op1.html
+         */
+
         // Do the calculation:
         double payPerWeek = hours * payRate;
 
