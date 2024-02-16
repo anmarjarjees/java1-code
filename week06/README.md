@@ -1,7 +1,6 @@
-# Week05 Packages and Code Files Sequence:
-- control_flow => The essentials about conditions part#1
-    - Condition.java => Starting with if/else condition
-    - LogicalOperator.java => The logical operators: !, ||, &&
+# Week06 Packages and Code Files Sequence:
+- switch_statement
+- loops
 
 ## Getting Started
 

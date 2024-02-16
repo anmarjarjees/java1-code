@@ -1,4 +1,4 @@
-## Code Sequence:
+## Week02 Code Files Sequence:
 - Info.java (Review)
 - DataType.java
 - StringValue.java

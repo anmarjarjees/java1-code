@@ -1,4 +1,4 @@
-# Packages and Code Files Sequence:
+# Week04 Packages and Code Files Sequence:
 - wrong.example => **Big mistake: Using . symbol in naming packages!!!**
 - demos_package\demo_part1 => Nested packages (sub-folder inside a folder) 
 - classes_objects => Our basic (partial) idea about using Classes and Object
