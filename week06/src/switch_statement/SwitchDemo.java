@@ -7,6 +7,20 @@ public class SwitchDemo {
         Scanner sc = new Scanner(System.in);
         System.out.print("What's your current programming language? ");
         String language = sc.next();
+        /*
+         * To recap: => two types of variables:
+         * - primitive types: int, double, char, float
+         * - reference types: Integer, Double, Char, Float, String
+         */
+        // Example:
+        String title1 = "Programming";
+        String title2 = "Programming";
+        if (title1 == title2) {
+            System.out.println("Same Title");
+        } else {
+            System.out.println("Not the same");
+        }
+
         // The "String" class represents character strings.
         /*
          * Use may enter one the following:
