@@ -1,6 +1,8 @@
-# Week10 Packages and Code Files Sequence:
-- using_methods
-    - MethodsDemo.java
+# Week11 Packages and Code Files Sequence:
+- methods_more
+    - MethodsReview.java
+    - OverloadedMethod.java
+    - VariableScope.java
 
 ## Getting Started
 
