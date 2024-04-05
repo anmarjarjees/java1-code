@@ -81,7 +81,7 @@ public class Car {
         System.out.println("turn right");
     }
 
-    // Warning: The method stop() from the type Car is never used locally
+    // Java Warning: The method stop() from the type Car is never used locally
     private void stop() {
         System.out.println("Stop now!");
     }

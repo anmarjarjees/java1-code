@@ -5,7 +5,7 @@
     - App.java
 - oop_part2
     - Car.java
-    - App
+    - App.java
 
 ## Getting Started
 
