@@ -4,6 +4,10 @@ import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) {
+        /*
+         * Using the same pattern:
+         * ClassName objectName = new ClassName();
+         */
         Car myCar = new Car();
 
         // Error: The field Car.brand is not visible

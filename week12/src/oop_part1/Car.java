@@ -27,7 +27,7 @@ public class Car {
      * 
      * Class Methods: functions inside a class
      * 
-     * Access (Visibility) Modifiers are applied to class members:
+     * "Access Modifiers" Or "Visibility Modifiers" are applied to class members:
      * - public:
      * Can be accessed/used within or outside the class
      * 
@@ -38,9 +38,12 @@ public class Car {
      * - protected:
      * Can be accessed by the subclasses only (in the next semester)
      * 
-     * - If nothing is written (empty) => default
+     * - default "No Modifier"
+     * - If nothing is written (empty)
      * 
      * Link: https://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.html
+     * 
+     * Please be advised that these modifiers can be added to properties and methods
      */
     // Properties (attributes): Variables inside a class:
     /*
