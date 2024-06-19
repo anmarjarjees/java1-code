@@ -4,6 +4,7 @@
 my-notes.txt
 bin/
 lib/
+test/
 
 # Compiled class file
 *.class

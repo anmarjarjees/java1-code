@@ -20,6 +20,10 @@ public class ExceptionMore {
             for (int index = 0; index < 6; index++) {
                 System.out.println("Name: " + names[index]);
             }
+            /*
+             * Remember that "Exception" class can be used to handle any exception
+             * We can create only one catch block/statement to handle all the exceptions
+             */
         } catch (Exception e) {
             // Exception => General Exception => can handle any exception
             System.out.println(e.getMessage());
@@ -31,7 +35,6 @@ public class ExceptionMore {
             // returns the class name of the exception
             System.out.println(e.getClass());
         } finally {
-            // finally => Optional => this block will always run:
             System.out.println("I hope it makes sense to you :-)");
         }
         input.close();

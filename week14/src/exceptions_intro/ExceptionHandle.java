@@ -34,7 +34,7 @@ public class ExceptionHandle {
          * > Arithmetic Exception => ArithmeticException
          * > ArrayIndexOutOfBounds Exception => ArrayIndexOutOfBoundsException
          * 
-         * To recap:
+         * Review:
          * Variable Scope => variable declared inside the block of code
          */
         Scanner input = new Scanner(System.in); // this code doesn't generate any error/exception
@@ -86,8 +86,22 @@ public class ExceptionHandle {
             System.out.println(e.getClass()); // class name of the Exception
             // Example => class java.lang.ArrayIndexOutOfBoundsException
             System.out.println(e.getMessage());
+        } finally {
+            /*
+             * The "finally" block:
+             * - it's "Optional" (not required in our code)
+             * - will always run (with exception or without)
+             */
+            System.out.println("Thank you, see you again");
         }
 
+        // Closing the Scanner object:
         input.close();
+        /*
+         * Recap: We have examined 3 exceptions:
+         * - java.lang.ArithmeticException/ by zero => only with integer values
+         * - java.lang.ArrayIndexOutOfBoundsException
+         * - java.util.InputMismatchException
+         */
     } // main()
 } // class
