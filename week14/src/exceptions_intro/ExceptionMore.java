@@ -2,7 +2,7 @@ package exceptions_intro;
 
 import java.util.Scanner;
 
-// Good for assignment#5 :-)
+// Good for assignment#5 in Java Level#1 :-)
 public class ExceptionMore {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -34,6 +34,12 @@ public class ExceptionMore {
             // returns the Class object that represents the runtime class of this object.
             // returns the class name of the exception
             System.out.println(e.getClass());
+            /*
+             * Output Examples:
+             * > class java.util.InputMismatchException
+             * > class java.lang.ArithmeticException
+             * > class java.lang.ArrayIndexOutOfBoundsException
+             */
         } finally {
             System.out.println("I hope it makes sense to you :-)");
         }

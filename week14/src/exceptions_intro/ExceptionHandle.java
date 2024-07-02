@@ -11,7 +11,7 @@ public class ExceptionHandle {
          */
 
         /*
-         * Recap => When dividing a number by Zero:
+         * Review/Recap => When dividing a number by Zero:
          * > Java can handle the double values => without throwing an exception
          * > Java will throw an exception with integer values
          * 
@@ -94,6 +94,10 @@ public class ExceptionHandle {
              */
             System.out.println("Thank you, see you again");
         }
+
+        // Review: Accessing the local variable "n1"
+        // Error: n1 cannot be resolved to a variable
+        // System.out.println("Your first number is: " + n1);
 
         // Closing the Scanner object:
         input.close();

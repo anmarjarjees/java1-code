@@ -11,21 +11,28 @@ public class ExceptionIdea {
          */
         Scanner input = new Scanner(System.in);
         /*
-         * Ask the user to input:
-         * - Numerator
-         * - Denominator
+         * Task:
+         * 1) Ask the user to input two numeric values:
+         * - Fist value for "Numerator"
+         * - Second value for "Denominator"
          * 
+         * 2) Divide and Get the answer:
+         * Answer = Numerator/Denominator
+         * 
+         * Example:
+         * - 90 => Numerator
+         * - 80 => Denominator
          * answer = 90/80
          * 90 => the numerator
          * 80 => the denominator
          */
 
-        System.out.print("Enter your any number to divide (the numerator): ");
-        // nextDouble => any number => integers or decimals
+        System.out.print("Enter any number to divide (the numerator): ");
+        // nextDouble() => to accept any number => integers or decimals
         // 9 => 9.0 or 73.68 => 73.68
         double num1 = input.nextDouble(); // user might enter string values!!!
 
-        System.out.print("Enter your any number to divide by (the denominator): ");
+        System.out.print("Enter any number to divide by (the denominator): ");
         double num2 = input.nextDouble();
 
         double result = num1 / num2;
@@ -34,7 +41,7 @@ public class ExceptionIdea {
                 + result);
 
         /*
-         * If the denominator is 0:
+         * If the denominator value is 0:
          * Error Message = > The result of dividing 9.0 by 0.0 is: Infinity
          */
 
@@ -50,6 +57,12 @@ public class ExceptionIdea {
         double div = n1 / n2; // dividing by 0!!!
         System.out.println("The result of dividing " + n1 + " by " + n2 + " is: " + div);
 
+        /*
+         * If the denominator value is 0:
+         * Java will throw an exception
+         */
+
+        // **********************************************
         // more examples :-)
         // Creating an Array => A variable that contains a list of different values:
         String[] names = { "Alex", "Sam", "Kate", "Martin", "Sarah" };
@@ -66,7 +79,7 @@ public class ExceptionIdea {
         input.close();
         /*
          * Analyzing Exception messages:
-         * ****************************
+         * *****************************
          * 
          * - Exception in thread "main" java.util.InputMismatchException
          * > Exception <==> Error
@@ -87,7 +100,7 @@ public class ExceptionIdea {
          * > java.lang.ArrayIndexOutOfBoundsException
          * 
          * As conclusion :-)
-         * We have examined 3 exceptions:
+         * We have examined 3 types of exceptions:
          * - java.util.InputMismatchException
          * - java.lang.ArithmeticException/ by zero => only with integer values
          * - java.lang.ArrayIndexOutOfBoundsException *
