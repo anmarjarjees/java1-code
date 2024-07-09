@@ -41,25 +41,44 @@ public class ExceptionIdea {
                 + result);
 
         /*
-         * If the denominator value is 0:
-         * Error Message = > The result of dividing 9.0 by 0.0 is: Infinity
+         * NOTE:
+         * *****
+         * With "double" data types, if the denominator value is 0:
+         * Java will show this error message below:
+         * "The result of dividing 9.0 by 0.0 is: Infinity"
+         * 
+         * Then will continue running the code...
          */
 
         /*
          * Repeat the same logic/task
-         * But with using integer input:
+         * But with using integer input with nextInt() method,
+         * In such case, if the denominator value is 0, Java will throw an exception
          */
 
         System.out.print("Enter your first whole (integer) number (the numerator): ");
         int n1 = input.nextInt(); // can only accept integer numeric values
         System.out.print("Enter your second whole (integer) number (the denominator): ");
         int n2 = input.nextInt(); // 0
-        double div = n1 / n2; // dividing by 0!!!
+        double div = (double) n1 / n2; // dividing by 0!!!
         System.out.println("The result of dividing " + n1 + " by " + n2 + " is: " + div);
+        // Notice that the division result will always be 0.0 - Refer to the note below:
 
         /*
-         * If the denominator value is 0:
-         * Java will throw an exception
+         * NOTE:
+         * *****
+         * In Java, when we divide two integers,
+         * the result will be also integer,
+         * which means any fractional part will be truncated.
+         * 
+         * Example:
+         * If we divide 10 by 20 => result is 0
+         * Because integer division does not consider the fractional part.
+         * 
+         * Solution:
+         * - We need to ensure that at least one operand in the division is a "double".
+         * This can be easily done by casting one of the integers to a double:
+         * double div = (double) n1 / n2;
          */
 
         // **********************************************
